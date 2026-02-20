@@ -1,3 +1,4 @@
+// MealDetailPage component to show full details of a specific meal
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLiked } from '../context/LikedContext';
@@ -94,9 +95,9 @@ export default function MealDetailPage() {
                         style={{ marginBottom: '1.5rem' }}
                         onClick={() => toggleLike(meal.idMeal)}
                     >
-                        <img 
-                            src={LikedIcon} 
-                            alt="" 
+                        <img
+                            src={LikedIcon}
+                            alt=""
                             className="btn-icon"
                         />
                         <span>{liked ? 'Liked' : 'Like this meal'}</span>
