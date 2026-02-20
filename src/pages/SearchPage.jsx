@@ -1,3 +1,4 @@
+// SearchPage component for browsing and searching meals
 import { useState, useEffect } from 'react';
 import MealCard from '../components/MealCard';
 import SearchIcon from '../assets/icons/search.svg';
