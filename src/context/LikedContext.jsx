@@ -1,3 +1,4 @@
+// Context to manage and persist liked meals state
 import { createContext, useContext, useState, useCallback } from 'react';
 
 const LikedContext = createContext();
