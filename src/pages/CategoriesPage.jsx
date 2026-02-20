@@ -1,3 +1,4 @@
+// CategoriesPage component to browse meals by category
 import { useState, useEffect } from 'react';
 import CategoriesIcon from '../assets/icons/categories.svg';
 
