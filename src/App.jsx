@@ -1,3 +1,4 @@
+// Main App component that handles routing and global state providers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LikedProvider } from './context/LikedContext';
 import Navbar from './components/Navbar';
