@@ -1,3 +1,4 @@
+// LikedPage component to display saved meals
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLiked } from '../context/LikedContext';
@@ -82,7 +83,7 @@ export default function LikedPage() {
                                         onClick={() => removeLike(meal.idMeal)}
                                         title="Remove from liked"
                                     >
-                                        <img src={LikedIcon} alt="" className="btn-icon" /> 
+                                        <img src={LikedIcon} alt="" className="btn-icon" />
                                         <span>Remove</span>
                                     </button>
                                     <button
