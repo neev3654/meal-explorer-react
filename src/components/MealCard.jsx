@@ -1,3 +1,4 @@
+// MealCard component to display individual meal summaries
 import { useNavigate } from 'react-router-dom';
 import { useLiked } from '../context/LikedContext';
 import LikedIcon from '../assets/icons/liked.svg';
@@ -22,11 +23,11 @@ export default function MealCard({ meal }) {
                         onClick={() => toggleLike(meal.idMeal)}
                         title={liked ? 'Unlike' : 'Like'}
                     >
-                        <img 
-                            src={LikedIcon} 
-                            alt="" 
-                            className="btn-icon" 
-                        /> 
+                        <img
+                            src={LikedIcon}
+                            alt=""
+                            className="btn-icon"
+                        />
                         <span>{liked ? 'Liked' : 'Like'}</span>
                     </button>
                     <button
