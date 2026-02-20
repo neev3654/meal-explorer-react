@@ -1,3 +1,4 @@
+// Navigation component with links and liked meals badge
 import { NavLink } from 'react-router-dom';
 import { useLiked } from '../context/LikedContext';
 import SearchIcon from '../assets/icons/search.svg';
