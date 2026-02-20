@@ -1,3 +1,4 @@
+/* Main Global Stylesheet - Luxury Dark Theme */
 /* ============================================================
    MEAL EXPLORER – Luxury Dark Theme
    Black × Charcoal × Gold
@@ -13,7 +14,9 @@
   padding: 0;
 }
 
-.nav-icon, .btn-icon, .page-title-icon {
+.nav-icon,
+.btn-icon,
+.page-title-icon {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
